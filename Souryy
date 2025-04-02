@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moi Moi... Gussa Thuk Do 🎀🥹</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            background-color: #ffebf0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #ff3366;
+            animation: shake 0.5s infinite alternate;
+        }
+        @keyframes shake {
+            0% { transform: translateX(-2px); }
+            100% { transform: translateX(2px); }
+        }
+        p {
+            font-size: 18px;
+            color: #444;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #ff1a4d;
+            font-size: 20px;
+        }
+        button {
+            background-color: #ff4d79;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #ff1a4d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Moi Moi... Gussa Thuk Do 🎀🥹</h1>
+        <p class="highlight">I'm Soury... 🥺💖</p>
+        <p class="highlight">Bura Na Maano Baat Ka, Yeh Pyar Hain Gilaa Nhi... Maan Jao Moi Moi... 🫂💕</p>
+        <p class="highlight">Tumko Manna Padega Soury... 😣💞</p>
+        <p>You know na how much you matter for me... Thukk do gussa moi...</p>
+        <p>And haan, I kok u (yeh toh tum jantee hi ho) 💖</p>
+        <button onclick="sendLove()">Maan Jao 💖</button>
+    </div>
+    <script>
+        function sendLove() {
+            alert("Yay! Gussa gaya, ab hug time! 🫂💖");
+        }
+    </script>
+</body>
+</html>
